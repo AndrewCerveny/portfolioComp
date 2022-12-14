@@ -11,16 +11,41 @@ nav {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background-color: bisque;
 }
-main {
-display: flex;
-flex-direction: row;
-}
+
 aside {
+    position: fixed;
     border: 2px solid black;
-    width: 20%;
-    height:100vh; 
+    left:0;
+    top:0;
+    height:100vh;
+    width:13rem;
+    background-color: aquamarine;      
 }
+/* aside Area */
+.photo-Background{
+    border:1px solid black;
+    height:8rem;
+}
+.aside-Main{
+    border: 1px solid black;
+    height:9rem;
+}
+.aside-Admin{
+    border:1px solid black;
+    height: 9rem;
+}
+.aside-Categories{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    height:8rem;
+}
+.select-Wrapper{
+    display: flex;
+}
+
 /* main- stats area  */
 .title-Area {
     border: 1px solid black;
@@ -33,4 +58,10 @@ aside {
 }
 .page-Tabs {
     border:1px solid black; 
+}
+
+
+
+.hidden {
+    display:none;
 }
