@@ -49,17 +49,45 @@ aside {
 /* main- stats area  */
 .title-Area {
     border: 1px solid black;
+    position: fixed;
+    left:13rem;
     height:8rem;
     width:100vw;
 }
+
+
+
+
 .title-A-Widgets {
     border:1px solid black; 
+    position: fixed;
+    right: 86px;
+    top: 65px;
+    width: 19rem;
+    height: 3rem; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
 
 }
 .page-Tabs {
-    border:1px solid black; 
+    display: flex;
+    position: fixed;
+    top:174px;
+    width: 59rem;
+    justify-content: space-between;
+    font-size: x-small;  
 }
-
+.stats-Main{
+ border:1px solid black;
+ position: fixed;
+ height: 16rem;
+ width: 100vw;
+ left: 13rem;
+ top: 12rem;
+}
 
 
 .hidden {
