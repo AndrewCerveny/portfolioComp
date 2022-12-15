@@ -20,7 +20,7 @@ aside {
     left:0;
     top:0;
     height:100vh;
-    width:13rem;
+    width:8rem;
     background-color: aquamarine;      
 }
 /* aside Area */
@@ -50,8 +50,8 @@ aside {
 .title-Area {
     border: 1px solid black;
     position: fixed;
-    left:13rem;
-    height:8rem;
+    left:8rem;
+    height:5rem;
     width:100vw;
 }
 
@@ -75,21 +75,96 @@ aside {
 .page-Tabs {
     display: flex;
     position: fixed;
-    top:174px;
+    top:168px;
     width: 59rem;
     justify-content: space-between;
-    font-size: x-small;  
+    font-size: x-small; 
+    margin-left: 3rem;  
 }
 .stats-Main{
- border:1px solid black;
  position: fixed;
  height: 16rem;
  width: 100vw;
- left: 13rem;
+ left: 8rem;
  top: 12rem;
 }
-
-
+.circle-Graph {
+ height:16rem;
+ margin-left: 4rem;
+ 
+}
+.bar-Graph {
+	height: 15rem;
+	position: fixed;
+	left: 50rem;
+	top: 215px;
+ 	width: 26rem; 
+}
+.photo-Divider{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+/* infoArea below */
+.job-Discription {
+	height: 3rem;
+	border:1px solid black;
+	position: fixed; 
+	top: 29rem;
+	left: 8rem;
+	width: 100vw;
+	height: 23rem;
+	background-color: lightcyan;
+	overflow: auto;
+}
+.info-One{
+	border:1px solid red;
+	width:57%;
+	
+}
+.job-Header{
+	display: flex;
+	border:1px solid purple;
+	height:3rem;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: navy;
+	color: white; 
+}
+.edit-Btn{
+	margin-left:2rem;
+}
+.personal-Info{
+	margin-left:2rem;
+	height: 100vh;
+	background-color: antiquewhite;
+}
+.position-T {
+	margin-left: 3rem;
+}
+.fact-Wrap {
+	display: flex;
+	
+	margin-top: 2rem;
+	justify-content: center;
+}
+.fact-Wrap > h2 {
+	margin-left: -20rem;
+}
+.fact-Wrap > h3 {
+	margin-left: 4rem;
+	align-items: center; 
+} 
+.descript-Sect{
+ height: 10rem;
+ display: flex;
+}
+.para-Wrapper{
+	
+	margin-left: 3rem;
+	width: 24rem;
+}
 .hidden {
     display:none;
 }
