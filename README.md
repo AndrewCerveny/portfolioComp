@@ -6,10 +6,10 @@ A static Composition: We were given a spec with two examples and I choose the on
 ## Motivation
 As someone who recently did the other spec in a seperate repository (ForegedInFire) I challenged myself to try to do this other option. 
  
-## Screenshots / deployment link if appl
+## Screenshots / deployment link if applicable
+
 <img width="1427" alt="Screenshot 2022-12-16 at 2 28 41 PM" src="https://user-images.githubusercontent.com/104449342/208174262-a76d1a75-5d15-4254-a01d-e28ed79a5710.png">
-icable
-Include logo/demo screenshot etc.
+- deploymentLink  https://andrewcerveny.github.io/portfolioComp/
 
 ## Tech/framework used
 - Html 
