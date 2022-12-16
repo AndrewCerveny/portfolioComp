@@ -94,6 +94,11 @@ display: flex;
 .widget-container{
 display: flex;
 }
+.widget-container-Two{
+    display: flex;
+    width: 19rem;
+    flex-direction: row;
+}
 /* main- stats area  */
 .title-Area {
     position: fixed;
