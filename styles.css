@@ -1,3 +1,7 @@
+/* colors */
+/* dark: #1C315E #227C70 
+medium #88A47C 
+light: #E6E2C3 */
 * {
     padding: 0;
     margin: 0;
@@ -11,9 +15,35 @@ nav {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: bisque;
+    background-color:#227C70;
 }
-
+/* nav Area */
+.widget-Area{
+    border: solid;
+    width: 22rem;
+    margin-right:-12rem;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-Widget-Wrap {
+    border: solid;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    background-color: #E6E2C3;
+}
+.nav-Widget,
+.search-Mag {
+    height:2rem;
+}
+.search-Bar{
+    height: 3rem;
+    width: 28rem;
+    margin-left: -12rem;
+}
+.search-Mag{
+    position:relative
+}
 aside {
     position: fixed;
     border: 2px solid black;
@@ -21,10 +51,11 @@ aside {
     top:0;
     height:100vh;
     width:8rem;
-    background-color: aquamarine;
+    background-color: #1C315E;
     display: flex;  
     flex-direction: column;
     align-items: center;
+    color: white
 }
 /* aside Area */
 .photo-Background{
@@ -36,19 +67,15 @@ aside {
 .photo-Background > h2{
     font-size: 16px;
 }
+
+.aside-Categories,
+.aside-Admin,
 .aside-Main{
-    /* border: 1px solid black; */
-    height:9rem;
-}
-.aside-Admin{
-    border:1px solid black;
-    height: 9rem;
-}
-.aside-Categories{
+    height:12rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    border:1px solid black;
-    height:8rem;
+    justify-content: space-between;
 }
 .select-Wrapper{
     display: flex;
@@ -57,34 +84,50 @@ aside {
 display: flex;
 }
 .head-Shot {
-    height: 5rem;
+    height: 7rem;
     width: 5rem;
     border-radius: 81%;
     margin-top: 1rem;
 }
-
+.aside-Widget{
+    height:20px;
+}
+.widget-container{
+display: flex;
+}
 /* main- stats area  */
 .title-Area {
-    border: 1px solid black;
     position: fixed;
     left:8rem;
     height:5rem;
     width:100vw;
 }
 
-
-
+.title-Intro > h2{
+    font-size: medium;
+}
+.display-Widget{
+    height:20px;
+}
+.widget-Display-Wrapper{
+    border:solid;
+    display: flex;
+    align-items: center;
+    width: 3rem;
+    justify-content: center;
+    border-radius: 84%;
+}
 
 .title-A-Widgets {
-    border:1px solid black; 
+    /* border:1px solid black;  */
     position: fixed;
     right: 86px;
     top: 65px;
     width: 19rem;
-    height: 3rem; 
+    height: 2rem; 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 
 
@@ -97,6 +140,7 @@ display: flex;
     justify-content: space-between;
     font-size: x-small; 
     margin-left: 3rem;  
+    
 }
 .stats-Main{
  position: fixed;
@@ -104,6 +148,7 @@ display: flex;
  width: 100vw;
  left: 8rem;
  top: 12rem;
+ 
 }
 .circle-Graph {
  height:16rem;
@@ -116,6 +161,7 @@ display: flex;
 	left: 50rem;
 	top: 215px;
  	width: 26rem; 
+    backGround-color: rgb(239, 240, 242)
 }
 .photo-Divider{
     display: flex;
@@ -125,29 +171,25 @@ display: flex;
 }
 /* infoArea below */
 .job-Discription {
-	height: 3rem;
 	border:1px solid black;
 	position: fixed; 
 	top: 29rem;
 	left: 8rem;
 	width: 100vw;
 	height: 100vh;
-	background-color: lightcyan;
 	overflow: auto;
 }
-.info-One{
-	border:1px solid red;
+.info-One{ 
 	width:57%;
     overflow: auto;
 	
 }
 .job-Header{
 	display: flex;
-	border:1px solid purple;
 	height:3rem;
 	justify-content: flex-start;
 	align-items: center;
-	background-color: navy;
+	background-color: #1C315E;
     width: 40rem;
     margin-left: 4rem;
     margin-top: 1rem;
@@ -158,7 +200,7 @@ display: flex;
 }
 .personal-Info{
     margin-left: 4rem;
-    height: 30rem;
+    height: 16rem;
     width: 40rem;
     background-color: antiquewhite;
     overflow-y: scroll;
@@ -170,11 +212,12 @@ display: flex;
     margin-top: 3rem;
     justify-content: space-around;
     align-items: center;
+    border:solid; 
 }
 
 .fact-Wrap > h3 {
 	margin-left: 2rem;
-	align-items: center; 
+	align-items: center;
 } 
 .description-Sect{
  height: 10rem;
@@ -186,17 +229,16 @@ display: flex;
 }
 /* contact Area  */
 .contact-Area {
-    height: 36rem;
+    height: 8rem;
     width: 23rem;
     position: fixed;
     left: 63rem;
     bottom: 28rem;
     top: 30rem;
-    border: 1px solid;
 }
 .press-Boxes {
     height: 9rem;
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -204,13 +246,13 @@ display: flex;
 .contact-Wrapper {
     height: 3rem;
     color: white;
-    background-color: blue;
+    background-color: #227C70;
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
 .information-Sources{
-    height:15rem;
+    height: 8rem;
     margin-top: 3rem;
     overflow-y: auto;
 }
